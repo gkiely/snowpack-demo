@@ -1,0 +1,2 @@
+Notes
+- Setup babel to allow jsx in js
