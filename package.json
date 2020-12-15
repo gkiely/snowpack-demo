@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "snowpack dev",
-    "dist": "snowpack build --out dist",
+    "start": "yarn && snowpack dev",
+    "dist": "yarn && snowpack build --out dist",
     "serve": "http-server -p 8000 dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
