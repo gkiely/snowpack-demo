@@ -16,8 +16,7 @@
     "@snowpack/plugin-optimize": "^0.2.10",
     "@snowpack/plugin-react-refresh": "^2.3.8",
     "snowpack": "^2.18.2",
-    "snowpack-plugin-import-map": "^1.1.3",
-    "snowpack-plugin-skypack-replacer": "^0.1.0"
+    "snowpack-plugin-skypack-replacer": "gkiely/snowpack-plugin-skypack-replacer"
   },
   "dependencies": {
     "react": "^17.0.1",
