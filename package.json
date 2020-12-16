@@ -7,14 +7,16 @@
     "start": "yarn && snowpack dev",
     "dist": "yarn && snowpack build --out dist",
     "serve": "http-server -p 8000 dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@snowpack/app-scripts-preact": "^1.9.5",
     "@snowpack/plugin-optimize": "^0.2.10",
     "@snowpack/plugin-react-refresh": "^2.3.8",
+    "jest": "^26.6.3",
     "snowpack": "^2.18.2",
     "snowpack-plugin-skypack-replacer": "gkiely/snowpack-plugin-skypack-replacer"
   },
